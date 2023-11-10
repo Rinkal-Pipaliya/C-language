@@ -14,8 +14,8 @@ main()
 	{
 		case 1:
 			printf("\nfor internate recharge:");
-			printf("2)for top up recharge:");
-			printf("3)for spicial recharge:");
+			printf("2)for top up recharge\n:");
+			printf("3)for spicial recharge\n:");
 			printf("enter your choice:\n");
 			scanf("%d",&a);
 
@@ -35,7 +35,7 @@ main()
 			break;
 
 			case 2:
-				printf("\m\m1)internet rcharge ke liye \n");
+				printf("\n\n1)internet rcharge ke liye ");
 				printf("2)top up recharge ke liye \n");
 				printf("3)spical recharg ke liye \n");
 				scanf("%d",&a);
@@ -43,7 +43,7 @@ main()
 				switch(a)
 				{
 					case 1:
-						printf("\n apne safaltapurvak internet recharge kar liya he :");
+						printf("\n1) apne safaltapurvak internet recharge kar liya he :");
 						break;
 					case 2:
 						printf("2)\n apne safaltapurvak top up recharge kar liya he :");
@@ -73,7 +73,6 @@ main()
 							printf("\n 3)tamaru spical rcharge safaltapurvak thai gayu che:");
 							break;
 					}
-					break;
 
 	 getch();
 
