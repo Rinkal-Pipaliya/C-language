@@ -1,0 +1,116 @@
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+      int a,n;
+      clrscr();
+      printf("enter  year1:");
+      scanf("%d",&a);
+      printf("enter year2:");
+      scanf("%d",&n);
+
+      while(a<=n)
+      {
+	if(a%4==0 )
+	{
+		printf("%d\t",a);
+
+	}
+	  a++;
+      }
+
+
+
+     getch();
+
+}
+
+    
+
+SECOND POG 
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+
+       int i=1;
+       clrscr();
+
+       while(i<=10)
+       {
+		printf("%d\t",i);
+		i++;
+       }
+       getch();
+}
+
+
+THARD POG 
+
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int a=10;
+	clrscr();
+
+	while(a>=1)
+	{
+		printf("%d\t",a);
+		a--;
+	}
+	getch();
+}
+
+
+FOUR POG 
+
+
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int i=1,n;
+	clrscr();
+
+	printf("enter the number:");
+	scanf("%d",&n);
+
+	while(i<=n)
+	{
+		printf("%d\t",i);
+		i++;
+	}
+	getch();
+}
+
+
+five pog
+
+
+#include<stdio.h>
+#include<conio.h>
+
+main()
+{
+	int i,n;
+	clrscr();
+
+	printf("enter the number:");
+	scanf("%d",&n);
+
+	i=n;
+
+	while(i>=1)
+	{
+		if(i%2!=0)
+		{
+		printf("%d\t",i);
+		i--;
+		}
+	}
+	getch();
+}
